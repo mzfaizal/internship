@@ -1,0 +1,88 @@
+
+
+
+body{
+    background-color: crimson;
+}
+.back{
+    background-image: url(./images/chiron.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+/* nav,ul{
+    display: inline flex;
+    gap: 20px;
+    list-style: none;
+    font-size: larger;
+    
+} */
+.top{
+    background-color: black;
+}
+
+#chiron_back{
+    width: 50%;
+}
+#chiron_inside1{
+    width: 50%;
+}
+#chiron_side{
+    width: 50%;
+}
+.grid{
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+    
+    
+}
+.grid .col{
+    width: 100%;
+}
+.icons{
+    text-align: right;
+    padding: auto;
+}
+.grid button{
+    width: 100px;
+    height: 100px;
+}
+.grid button :hover{
+    background-color: rgb(22, 3, 3);
+
+}
+.back{
+    background-image: url(./images/chiron.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding-top: 50px;
+    margin-top: 50px;
+    color: cornsilk;
+}
+
+.nan{
+    text-align: center;
+}
+
+.nan ul li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+.nan h1{
+    float: left;
+}
+
+.nan ul li i{
+    float: right;
+    padding-left: 20px;
+}

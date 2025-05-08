@@ -1,0 +1,43 @@
+.helo img{
+    border: 10px dashed red;
+    border-radius: 20px;
+    width: 50%;
+    height: 200px;
+}
+
+.back{
+    background-image: url(./images/image.jfif);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.back button{
+    padding: 20px;
+    width: 30%;
+    background-color: blueviolet;
+    border-radius: 20px;
+    border: 1px solid white
+}
+
+.back button:hover{
+    background-color: white;
+}
+
+.grid{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.grid .col{
+    width: 33%;
+}
+
+.grid i{
+    color: red;
+}
+
